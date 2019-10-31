@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="changePosition.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="div--centered">
+        <div id="box--position">
+            <span>Move me!!!</span>
+        </div>    
+    </div>
+    <div id="button--property">
+        <button  onclick="document.getElementById('box--position').style.marginTop = '100px'">Up</button>
+        <button onclick="document.getElementById('box--position').style.marginBottom = '100px'">Down</button>
+        <button onclick="document.getElementById('box--position').style.marginLeft = '100px'">Left</button>
+        <button onclick="document.getElementById('box--position').style.marginRight = '100px'">Right</button>
+    </div>
+</body>
+</html>

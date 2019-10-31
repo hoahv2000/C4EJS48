@@ -1,0 +1,23 @@
+#div--centered {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid;
+}
+#box--position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+#button--property {
+    display: flex;
+    justify-content: center;
+}
